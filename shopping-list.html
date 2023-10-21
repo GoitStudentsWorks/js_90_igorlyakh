@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_90_igorlyakh/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    
+    <script type="module" crossorigin src="/js_90_igorlyakh/assets/scroll-up-704d88cd.js"></script>
+    <link rel="stylesheet" href="/js_90_igorlyakh/assets/scroll-up-70fc9e95.css">
+  </head>
+
+  <body>
+    <div class="border">
+  <header class="header">
+    <div class="left_hader_container">
+      <div class="header__logo">
+        <a href="./" class="logo_span"><svg width="24" height="24" class="logo-img">
+          <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-logo-002"></use>
+        </svg>
+      <svg width="77" height="13" class="logo-text">
+          <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-Bookshelf"></use>
+        </svg></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-ul">
+          <li><a href="./" class="header__button">Home</a></li>
+          <li class="shop-list">
+            <a href="./shopping-list.html" class="header__button_shopping"
+              >Shopping list
+              <svg width="20" height="20" class="shop-block">
+          <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-block"></use>
+        </svg></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right_logo_container">
+      <div class="header__theme-switch">
+        <label class="header__theme-switch-label">
+          <input type="checkbox" class="header__theme-switch-checkbox" />
+          <span class="header__theme-switch-slider"></span>
+        </label>
+      </div>
+      <button class="mobile-menu-button" type="button"><svg width="28" height="28" class="burger">
+          <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-burger"></use>
+        </svg>
+      </button>
+        <button class="mobile-menu-button-close" type="button">
+      <svg width="28" height="28" class="close">
+          <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-close"></use>
+        </svg></button>
+    </div>
+  </header>
+</div>
+<div class="header-modal">
+  <ul class="modal-list">
+    <li class="modal-item">
+      <a href="./" class="modal__button">Home</a>
+    </li>
+    <li class="modal-item"><a href="./shopping-list.html" class="modal__button_shopping"
+        >Shopping list<svg width="20" height="20" class="shop-block-modal">
+          <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-block"></use>
+        </svg></a
+      >
+    </li>
+  </ul>
+</div>
+
+
+    <main>
+      <div class="stoped-listpage container">
+        <div class="supportUkraineShopList">
+          <div class="support__container">
+  <div class="wrapper">
+    <h2 class="support__title">Support Ukraine</h2>
+
+    <svg class="support__icon" width="20" height="32">
+      <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-arms-icon"></use>
+    </svg>
+  </div>
+
+  <div class="swiper-container">
+    <div class="logoContainer"></div>
+  </div>
+  <button
+    class="swiper-button-next"
+    type="button"
+    aria-label="Scroll to show more founds"
+  >
+    <svg class="swiper-button-next__icon" width="22" height="22">
+      <use href="/js_90_igorlyakh/assets/icons-294d1b54.svg#icon-arrow-down-icon"></use>
+    </svg>
+  </button>
+</div>
+        </div>
+
+        <section class="shopping-lists">
+          <h1 class="shoplist-title">Shopping <span>List</span></h1>
+
+          <div class="shoplist-inside">
+            <p class="shoplist-inside-text">
+              This page is empty, add some books and proceed to order.
+            </p>
+
+            <picture class="shoplist-inside-picture">
+              <source
+                srcset="/js_90_igorlyakh/assets/books-8a16ad0f.png 1x, /js_90_igorlyakh/assets/books@2x-c166d62f.png 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/js_90_igorlyakh/assets/books-8a16ad0f.png 1x, /js_90_igorlyakh/assets/books@2x-c166d62f.png 2x"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/js_90_igorlyakh/assets/books-729edc7b.png 1x, /js_90_igorlyakh/assets/books@2x-0d91fc9b.png 2x"
+                media="(max-width: 767px)"
+              />
+
+              <img
+                class="shoplist-inside-img"
+                src="/js_90_igorlyakh/assets/books-729edc7b.png"
+                alt="books"
+              />
+            </picture>
+          </div>
+
+          <ul class="shoplist-list"></ul>
+        </section>
+      </div>
+    </main>
+    
+  </body>
+</html>
